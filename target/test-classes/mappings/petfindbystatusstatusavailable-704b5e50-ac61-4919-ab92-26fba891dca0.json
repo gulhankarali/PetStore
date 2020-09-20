@@ -1,0 +1,17 @@
+{
+  "id" : "704b5e50-ac61-4919-ab92-26fba891dca0",
+  "request" : {
+    "url" : "/pet/findByStatus?status=available",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "mocking.json",
+    "headers" : {
+      "Content-Type" : "application/json"
+    }
+  },
+  "uuid" : "704b5e50-ac61-4919-ab92-26fba891dca0",
+  "persistent" : true,
+  "insertionIndex" : 1
+}

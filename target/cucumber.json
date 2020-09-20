@@ -1,0 +1,99 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-20T09:29:33.413Z",
+        "before": [
+          {
+            "result": {
+              "duration": 742191,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Negative testing - 2",
+        "description": "",
+        "id": "verifying-number-of-pets-with-status\u003davailable-name\u003ddoggie;negative-testing---2",
+        "after": [
+          {
+            "result": {
+              "duration": 50309,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1455157038,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I set petsByStatus service endpoint for swagger service",
+            "match": {
+              "location": "petsByStatusStepDefs.i_set_petByStatust_service_endpoint_for_swagger_service()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1436825,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I set a GET request for queryparam status \u003d \"available\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"available\"",
+                  "offset": 44
+                }
+              ],
+              "location": "petsByStatusStepDefs.send_a_GET_request_for_queryparam_status(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2608955223,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I calculate how many of result set has name \"doggiee\" and have zero result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"doggiee\"",
+                  "offset": 44
+                }
+              ],
+              "location": "petsByStatusStepDefs.i_calculate_how_many_of_result_set_has_name_and_have_zero_result(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@negativeTests"
+          }
+        ]
+      }
+    ],
+    "name": "Verifying number of pets with status\u003davailable name\u003ddoggie",
+    "description": "",
+    "id": "verifying-number-of-pets-with-status\u003davailable-name\u003ddoggie",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/petsbystatus.feature",
+    "tags": []
+  }
+]
